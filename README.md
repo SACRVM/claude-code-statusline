@@ -21,7 +21,7 @@ Color thresholds: green < 50%, yellow ≥ 50%, red ≥ 80%. Catppuccin Mocha pal
 
 1. **Drop the script** into your Claude config directory:
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/chloe-dream/claude-code-statusline/main/statusline-command.sh \
+   curl -fsSL https://raw.githubusercontent.com/sacrvm/claude-code-statusline/main/statusline-command.sh \
      -o ~/.claude/statusline-command.sh
    chmod +x ~/.claude/statusline-command.sh
    ```

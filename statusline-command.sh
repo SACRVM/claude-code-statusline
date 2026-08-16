@@ -8,6 +8,8 @@ input=$(cat)
 input_c=$(printf '%s' "$input" | tr -d '\n')
 
 # --- JSON extraction helpers (no jq dependency) ---
+# Note: [[:space:]] below is the POSIX character class, not a wiki-style [[link]].
+# Audit passes that grep for [[...]] will match it; that is expected — leave it.
 json_str() {
   printf '%s' "$input_c" | sed -n "s/.*\"$1\"[[:space:]]*:[[:space:]]*\"\([^\"]*\)\".*/\1/p" | head -1
 }

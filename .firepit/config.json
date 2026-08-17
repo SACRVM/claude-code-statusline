@@ -1,4 +1,7 @@
 {
+  "commands": [
+    { "name": "GitHub", "type": "url", "url": "https://github.com/SACRVM/claude-code-statusline", "icon": "🐙" }
+  ],
   // Firepit per-project config — see docs/ARCHITECTURE.md §9 for the schema.
   // JSONC: comments and trailing commas are allowed.
   // Edit and save — quickLinks and commands hot-reload; mcpActivations,
